@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - TravelEase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section with Navigation -->
+    <header>
+        <div class="logo">
+            <h1>TravelEase</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <button id="loginBtn">Login</button>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- About Content -->
+    <section class="about-section">
+        <h1>About TravelEase</h1>
+        <div class="about-content">
+            <img src="img\five.jpg" alt="Travel Team">
+            <div class="about-text">
+                <h2>Our Story</h2>
+                <p>At TravelEase, we believe that travel should be accessible, enjoyable, and memorable for everyone. Founded in 2015, our mission is to help travelers discover new destinations and create unforgettable experiences.</p>
+                
+                <h2>Why Choose Us?</h2>
+                <ul>
+                    <li>Expertly curated travel packages</li>
+                    <li>24/7 customer support</li>
+                    <li>Best price guarantee</li>
+                    <li>Local guides with deep knowledge</li>
+                    <li>Sustainable and responsible travel options</li>
+                </ul>
+                
+                <p>Whether you're looking for a relaxing beach getaway, an adventure-filled expedition, or a cultural immersion experience, TravelEase has the perfect package for you.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 TravelEase. All rights reserved.</p>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

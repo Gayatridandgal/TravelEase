@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelEase - Your Journey Begins Here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section with Navigation -->
+    <header>
+        <div class="logo">
+            <h1>TravelEase</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <button id="loginBtn">Login</button>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Explore the World</h1>
+            <p>Discover amazing destinations and create unforgettable memories</p>
+            <a href="packages.html" class="btn">View Packages</a>
+        </div>
+    </section>
+
+    <!-- Featured Destinations -->
+    <section class="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination-grid">
+            <div class="destination-card">
+                <img src="img\one.jpg" alt="Bali">
+                <h3>Bali, Indonesia</h3>
+                <p>Experience paradise on earth</p>
+                <a href="packages.html" class="btn">View Details</a>
+            </div>
+            <div class="destination-card">
+                <img src="img\two.jpg" alt="Paris">
+                <h3>Paris, France</h3>
+                <p>Fall in love with the city of love</p>
+                <a href="packages.html" class="btn">View Details</a>
+            </div>
+            <div class="destination-card">
+                <img src="img\three.jpg" alt="Tokyo">
+                <h3>Tokyo, Japan</h3>
+                <p>Where tradition meets innovation</p>
+                <a href="packages.html" class="btn">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 TravelEase. All rights reserved.</p>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

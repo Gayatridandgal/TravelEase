@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Packages - TravelEase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section with Navigation -->
+    <header>
+        <div class="logo">
+            <h1>TravelEase</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="packages.html" class="active">Packages</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <button id="loginBtn">Login</button>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Packages Header -->
+    <section class="packages-header">
+        <h1>Our Travel Packages</h1>
+        <p>Choose from our carefully curated travel experiences</p>
+    </section>
+
+    <!-- Packages Grid -->
+    <section class="packages-grid">
+        <div class="package-card">
+            <img src="img\five.jpg" alt="Bali Beach">
+            <div class="package-details">
+                <h2>Bali Beach Escape</h2>
+                <p class="price">$1,299 / person</p>
+                <p class="duration">7 Days, 6 Nights</p>
+                <p class="description">Enjoy the beautiful beaches, luxury resorts, and cultural experiences in the heart of Indonesia.</p>
+                <button class="btn book-btn">Book Now</button>
+            </div>
+        </div>
+
+        <div class="package-card">
+            <img src="img\four.jpg" alt="Paris">
+            <div class="package-details">
+                <h2>Paris Discovery</h2>
+                <p class="price">$1,599 / person</p>
+                <p class="duration">6 Days, 5 Nights</p>
+                <p class="description">Explore the romantic city of Paris, visit iconic landmarks, and enjoy authentic French cuisine.</p>
+                <button class="btn book-btn">Book Now</button>
+            </div>
+        </div>
+
+        <div class="package-card">
+            <img src="img\two.jpg" alt="Tokyo">
+            <div class="package-details">
+                <h2>Tokyo Adventure</h2>
+                <p class="price">$1,899 / person</p>
+                <p class="duration">8 Days, 7 Nights</p>
+                <p class="description">Experience the blend of traditional and modern Japan in Tokyo and surrounding areas.</p>
+                <button class="btn book-btn">Book Now</button>
+            </div>
+        </div>
+
+        <div class="package-card">
+            <img src="img\one.jpg" alt="Santorini">
+            <div class="package-details">
+                <h2>Greek Islands Tour</h2>
+                <p class="price">$1,999 / person</p>
+                <p class="duration">10 Days, 9 Nights</p>
+                <p class="description">Island hop through the beautiful Greek isles, enjoying beaches, cuisine, and ancient history.</p>
+                <button class="btn book-btn">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 TravelEase. All rights reserved.</p>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
