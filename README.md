@@ -34,9 +34,7 @@ For testing the login functionality, use either of these credentials:
 2. Open any HTML file in your browser to view the site
 3. No additional dependencies or build steps required
 
-## Screenshot
 
-![TravelEase Website](https://source.unsplash.com/800x400/?travel-website)
 
 ## Future Enhancements
 
