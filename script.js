@@ -7,7 +7,7 @@ const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
 const bookButtons = document.querySelectorAll('.book-btn');
 const contactForm = document.getElementById('contact-form');
-
+const link = document.getElement('contact-form')
 // Dummy user database
 const users = [
     { username: 'user1', password: 'pass1' },
