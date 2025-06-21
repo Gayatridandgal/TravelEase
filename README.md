@@ -24,9 +24,6 @@ For testing the login functionality, use either of these credentials:
 
 ## Pages
 
-- Home page (index.html)
-- About page (about.html)
-- Packages page (packages.html)
 
 ## Setup and Deployment
 
